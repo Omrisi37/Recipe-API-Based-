@@ -1,13 +1,28 @@
-# Food & Nutrition Explorer Requirements
+# Enhanced Food & Nutrition Explorer Requirements
+# Updated for the improved version
 
 # Core web framework
 streamlit>=1.28.0
 
-# Data manipulation
+# Data manipulation and analysis
 pandas>=2.0.0
+numpy>=1.24.0
 
-# Visualization
+# Advanced visualization with interactive charts
 plotly>=5.15.0
 
-# HTTP requests for APIs
+# HTTP requests for multiple APIs
 requests>=2.31.0
+
+# Date and time handling for caching
+python-dateutil>=2.8.0
+
+# JSON handling (built-in but good to specify)
+# json - built into Python
+
+# Time operations (built-in but used for delays)
+# time - built into Python
+
+# Optional: For enhanced functionality
+# streamlit-option-menu>=0.3.6    # For better UI components (optional)
+# streamlit-aggrid>=0.3.4         # For ad
