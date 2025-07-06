@@ -1,0 +1,13 @@
+# Food & Nutrition Explorer Requirements
+
+# Core web framework
+streamlit>=1.28.0
+
+# Data manipulation
+pandas>=2.0.0
+
+# Visualization
+plotly>=5.15.0
+
+# HTTP requests for APIs
+requests>=2.31.0
